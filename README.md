@@ -1,30 +1,44 @@
-## Wine Quality Prediction Using Random Forest
+# Wine Quality Prediction Using Machine Learning (R)
 
-### Business Objective
-To predict wine quality based on physicochemical properties, helping
-manufacturers maintain consistent product quality.
+## Business Problem
+Wine quality assessment is traditionally based on expert sensory evaluation, which is subjective,
+time-consuming, and costly. The goal of this project is to predict wine quality using measurable
+physicochemical properties, enabling data-driven quality control and decision-making.
 
-### Dataset
-Wine Quality dataset containing acidity, sugar, sulphates, alcohol, etc.
+## Objective
+To develop a machine learning model that accurately predicts wine quality ratings based on
+chemical attributes such as acidity, alcohol content, sulphates, and pH.
 
-### Tools & Technologies
+## Dataset
+The dataset contains physicochemical properties of wine samples including:
+- Fixed acidity
+- Volatile acidity
+- Citric acid
+- Residual sugar
+- Chlorides
+- Free & total sulfur dioxide
+- Density
+- pH
+- Sulphates
+- Alcohol
+
+Target variable: **Wine Quality Score**
+
+## Tools & Technologies
 - R Programming
-- Random Forest
+- Random Forest Algorithm
 - Caret
-- Tkinter GUI (tcltk)
+- openxlsx
+- tcltk (GUI-based prediction system)
 
-### Approach
-- Data cleaning and preprocessing
-- Train-test split
-- Random Forest model training
-- Model evaluation
-- GUI-based quality prediction
+## Approach
+1. Data cleaning and preprocessing
+2. Exploratory data analysis
+3. Feature selection and model training
+4. Random Forest model implementation
+5. Model evaluation and validation
+6. GUI development for real-time prediction
 
-### Results
-- Achieved ~XX% accuracy on test data
-- Alcohol and sulphates were key predictors
-
-### Key Learnings
-- Practical application of ensemble models
-- Feature importance interpretation
-- End-to-end ML deployment using GUI
+## Model & Evaluation
+- Algorithm: Random Forest
+- Handles non-linear relationships and feature interactions effectively
